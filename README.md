@@ -1,4 +1,4 @@
-# :satellite: NASA Daily Image Scraper
+# :milky_way: NASA Daily Image Scraper
 
 This Python script fetches NASA's "Image of the Day" and adds the description as a text overlay on the image. The final result is then displayed.
 
@@ -11,7 +11,9 @@ This Python script fetches NASA's "Image of the Day" and adds the description as
 
 ## :camera: Example Output
 
-## How to Run (with listed bash commands)
+![Alt text](relative%20images/readme_image.png?raw=true "Nasa Daily Image with Description Overlay")
+
+## :rocket: How to Run (with listed bash commands)
 
 1. Clone the repo:
     git clone https://github.com/eli-rosee/nasa_scrape
@@ -27,13 +29,23 @@ This Python script fetches NASA's "Image of the Day" and adds the description as
 4. Run the scraper:
     ./daily.sh
 
-## Cleanup
+## :broom: Cleanup
 
 Each run removes the previous image files and creates updated ones using the 'daily.sh' script.
 
-## Dependencies
+## :package: Dependencies
 
 - 'beautifulsoup4'
 - 'requests'
 - 'Pillow'
 - 'lxml'
+
+## :robot: Future Improvements
+
+- Add auto-upload feature to a website or social media
+- Schedule daily automation on PC and output to wallpaper
+- Scrape the entirety of the daily image archives on the nasa site
+
+## :artificial_satellite: Credits
+
+Images and descriptions are provided by [NASA.gov](https://www.nasa.gov).
