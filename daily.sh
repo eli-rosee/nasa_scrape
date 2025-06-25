@@ -1,11 +1,17 @@
 #!/bin/bash
+if [ ! -d  "$images/" ]; then
+    echo "Images directory does not exist, creating a new one..."
+    mkdir images/
+fi
 
-if [[ -e images/daily_image.png ]]; then
+if [ -e "images/daily_image.png" ]; then
+    echo "Removing current daily_image.png..."
     rm images/daily_image.png
 fi
 
-if [[ -e images/daily_image_text.png ]]; then
+if [ -e "images/daily_image_text.png" ]; then
+    echo "Removing current daily_image_text.png..."
     rm images/daily_image_text.png
 fi
 
-python3 daily_nasa_image.py
+python3 nasa_image.py
