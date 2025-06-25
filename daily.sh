@@ -1,8 +1,14 @@
 #!/bin/bash
-if [ ! -d  "$images/" ]; then
-    echo "Images directory does not exist, creating a new one..."
+if [ ! -d  "images/" ]; then
+    echo "Images directory does not exist! Creating a new one..."
     mkdir images/
 fi
+
+if [ -e "images/readme_image.png" ]; then
+    echo "Removing readme_image.png..."
+    rm images/readme_image.png
+fi
+
 
 if [ -e "images/daily_image.png" ]; then
     echo "Removing current daily_image.png..."

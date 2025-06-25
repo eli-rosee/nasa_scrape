@@ -2,4 +2,5 @@
 .venv/
 
 # Ignore images
-.png
+daily_image.png
+daily_image_text.png
