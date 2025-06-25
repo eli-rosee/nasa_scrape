@@ -11,7 +11,7 @@ This Python script fetches NASA's "Image of the Day" and adds the description as
 
 ## :camera: Example Output
 
-![Alt text](relative%20images/readme_image.png?raw=true "Nasa Daily Image with Description Overlay")
+![Alt text](images/readme_image.png?raw=true "Nasa Daily Image with Description Overlay")
 
 ## :rocket: How to Run (with listed bash commands)
 
