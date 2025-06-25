@@ -30,12 +30,12 @@ if https_response.status_code == 200:
         r = requests.get(image_src, stream=True)
 
         # opens up a file for the image and dumps the binary into it
-        with open('daily_image.jpg', 'wb') as f:
+        with open('images/daily_image.png', 'wb') as f:
             r.raw.decode_content = True
             shutil.copyfileobj(r.raw, f)
 
         # opens the file and displays it to the user
-        with Image.open('daily_image.jpg') as image:
+        with Image.open('images/daily_image.png') as image:
             draw = ImageDraw.Draw(image)
             font = ImageFont.load_default(20)
             rgb_image = image.load()
@@ -58,7 +58,7 @@ if https_response.status_code == 200:
 
             image.show(image_title)
 
-            image.save('daily_image_text.png')
+            image.save('images/daily_image_text.png')
 
     else:
         print("Error: image download could not be found.")
