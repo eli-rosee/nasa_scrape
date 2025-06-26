@@ -4,10 +4,10 @@ This Python script fetches NASA's "Image of the Day" and adds the description as
 
 ## :wrench: Features
 
-- Web scraping with 'BeautifulSoup'
-- Image display / overlay with 'Pillow'
+- Web scraping with _BeautifulSoup_
+- Image display / overlay with _Pillow_
 - Daily reuse support with Bash script
-- '.gitignore' and 'requirements.txt' for a clean repo setup
+- ._gitignore_ and _requirements.txt_ for a clean repo setup
 
 ## :camera: Example Output
 
