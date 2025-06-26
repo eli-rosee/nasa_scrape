@@ -68,6 +68,6 @@ if https_response.status_code == 200:
             image.save('images/daily_image_text.png')
 
     else:
-        print("Error: image download could not be found.")
+        raise Exception("Image download could not be found")
 else:
-   print("Error: website could not be scraped.")
+   raise Exception("Website could not be scraped")
