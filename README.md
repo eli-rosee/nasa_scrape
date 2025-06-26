@@ -31,14 +31,14 @@ This Python script fetches NASA's "Image of the Day" and adds the description as
 
 ## :broom: Cleanup
 
-Each run removes the previous image files and creates updated ones using the 'daily.sh' script.
+Each run removes the previous image files and creates updated ones using the _daily.sh_ script.
 
 ## :package: Dependencies
 
-- 'beautifulsoup4'
-- 'requests'
-- 'Pillow'
-- 'lxml'
+- _beautifulsoup4_
+- _requests_
+- _Pillow_
+- _lxml_
 
 ## :robot: Future Improvements
 
